@@ -1,0 +1,56 @@
+/* CSS3 */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #d2d2c1 url('imagens/fundo.png');
+}
+
+#container {
+    width: 900px;
+}
+
+#nav{
+    background: rgb(78, 143, 78);
+    padding: 10px;
+}
+#nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-right: 15px;
+    padding: 0;
+}
+
+#nav ul li a {
+    text-decoration: none;
+}
+
+#conteudo {
+    background: rgb(243, 236, 173);
+    padding: 10px;
+}
+#conteudo p {
+    margin-bottom: 10px;
+}
+#conteudo .titulo {
+    margin-bottom: 5px;
+}
+
+#copyright {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.foto {
+    text-align: center;
+    border: solid 10px #ccc;
+}
